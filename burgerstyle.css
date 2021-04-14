@@ -1,4 +1,8 @@
 
+.logo1 {
+  position: center;
+}
+
 .burgerbox {
     z-index: 1;
     width: 100%;
