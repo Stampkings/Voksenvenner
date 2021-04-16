@@ -41,7 +41,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     result_box.classList.remove("activeResult");
-    timeValue = 30;
+    timeValue = 15;
     que_count = 0;
     que_numb = 1;
     userScore = 0;
