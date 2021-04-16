@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quizstylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+
+    <div class="start_btn"><button>Start quiz</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Regler for denne quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Du har kun <span>15 sekunder</span> til hvert spørgsmål.</div>
+            <div class="info">2. Når du har valgt et svar, kan du ikke gå tilbage.</div>
+            <div class="info">3. Du kan ikke svare, når tiden er gået.</div>
+            <div class="info">4. Du kan ikke afslutte quizzen, mens du er i gang.</div>
+            <div class="info">5. Du vil få point ud fra dine svar.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Afslut quiz</button>
+            <button class="restart">Fortsæt</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">Tid</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+
+            </div>
+            <div class="option_list">
+
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="total_que">
+
+            </div>
+            <button class="next_btn">Næste spørgsmål</button>
+        </footer>
+    </div>
+
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Du har fuldført quizzen!</div>
+        <div class="score_text">
+
+        </div>
+        <div class="buttons">
+            <button class="restart">Prøv igen!</button>
+            <button class="quit">Afslut quiz</button>
+        </div>
+    </div>
+
+    <script src="quizspg.js"></script>
+    <script src="quiz2.js"></script>
+
+</body>
+</html>
