@@ -230,6 +230,8 @@ img {vertical-align: middle;}*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #5b5b5b;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /*text afsnit1 slut*/
@@ -514,7 +516,7 @@ img {vertical-align: middle;}*/
   width: 100%;
   background: #00A0DF;
   padding: 10px;
-  margin-left: 2px;
+  margin-left: 6%;
   border-radius: 5px;
   margin-top: 30px;
   font-family: Arial, Helvetica, sans-serif;
@@ -628,30 +630,41 @@ footer img{
 /*media*/
 
 @media only screen and (min-width: 1000px) {
+/*mobil*/
+  .navfarve {
+    display: none;
+    background-color: #00A0DF;
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+.logo1 {
+    position: center;
+    width: 25%;
+    margin: 10px;
+  }
+/*mobilslut*/
 
   .logo1 {
-    width: 15%;
-    float: center;
+    width: 10%;
   }
 
   
-  .vlogo {
-    width: 18%;
-    display: flex;
-  }
-  
   nav {
+    background-color: #00A0DF;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 12vh;
+    min-height: 6vh;
   }
   
   .nav-linksbar {
     display: flex;
-    width: 70%;
+    width: 80%;
     justify-content: space-around;
     padding-top: 20px;
+    padding-right: 200px;
   }
   
   .nav-linksbar li {
@@ -659,44 +672,100 @@ footer img{
   }
   
   .nav-linksbar a {
-    color: black;
+    color: white;
     text-decoration: none;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 900;
     font-family: Arial;
   }
 /*slideshow*/
-  .slideshow-container {
-    width: 70%;
+
+
+  .slideshow-container img {
+    width: auto;
+    height: 600px;
+    margin-left: 20%;
   }
 /*slideshow slut*/
 
 /*texttt*/
-.texttt {
+.texttt p {
   text-align: center;
-  
-
+  margin-left: 23.5%;
+  margin-right: 23.5%;
+  font-size: 24px;
+}
+.texttt {
+  margin-bottom: 75px;
 }
 
 /*infoboks1*/
+.infoboks {
+  margin-bottom: 125px;
+}
+
   .infoboks img {
-    margin-left: 10px;
-    width: 45%;
+
+    width: 40%;
   }
 
   .infoboks h2 {
     text-align: center;
-    float: right;
+    float: center;
+    margin-bottom: 30px;
+    font-size: 30px;
   }
 
   .infoboks p {
-    text-align: center;
-    float: right;
+      font-size: 24px;
+  }
+
+  .rightsection {
+    width: 45%;
+  padding-left: 15px;
+  margin-left: 0.5%;
+  float: right;
+  text-align: center;
+  padding-right: 50px;
+  }
+
+  .knap2 {
+    margin-left: 40%;
+    font-size: 24px;
   }
 
   /*infoboks1 slut*/
-
+  /*infoboks2 start*/
+  .infoboks2 {
+    margin-bottom: 75px;
+  }
+  
+    .infoboks2 img {
+      width: 40%;
+      margin-left: 1%;
+    }
+  
+    .infoboks2 h2 {
+      text-align: center;
+      float: center;
+      font-size: 30px;
+    }
+  
+    .infoboks2 p {
+        font-size: 24px;
+    }
+  
+    .leftsection {
+      width: 45%;
+    padding-right: 15px;
+    margin-left: 0.5%;
+    float: left;
+    text-align: center;
+    padding-left: 50px;
+    }
+  
+  /*infoboks2 slut*/
 .burgerbox {
   display: none;
 }
@@ -707,8 +776,7 @@ footer img{
   width: 100%;
   background: #00A0DF;
   padding: 10px;
-  margin-left: 16%;
-  margin-right: 25%;
+  margin-left: 33.5%;
   border-radius: 5px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -758,6 +826,23 @@ footer img{
   transition: all 0.5s ease;
   /*slutkontakt*/
 }
+
+/*quizkasse*/
+.quizkasse img {
+  width: auto;
+  height: 420px;
+}
+
+.quizkasse h2 {
+  margin: 10px;
+}
+
+.quizkasse p {
+  font-size: 24px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
 .knap3 {
   border: none;
   color: white;
@@ -765,14 +850,14 @@ footer img{
   text-align: center;
   text-decoration: none;
   display: flex;
-  font-size: 14px;
+  font-size: 24px;
   margin: -6px -2px;
   transition-duration: 0.4s;
   cursor: pointer;
   justify-content: center;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-bottom: 30px;
-  margin-left: 40%;
+  margin-left: 45%;
 
 }
  
@@ -788,6 +873,18 @@ footer img{
 .knap3:hover {
   background-color: #008CBA;
   color: white;
+}
+
+footer {
+  background-color: #10607F;
+}
+
+footer img {
+  width: fit-content;
+  display: flex;
+  height: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 }
