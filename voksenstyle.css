@@ -15,6 +15,7 @@ img {vertical-align: middle;}*/
     width: 100%;
     height: auto;
     position: fixed;
+    z-index: 100;
 }
 
 .logo1 {
