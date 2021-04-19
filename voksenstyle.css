@@ -19,7 +19,7 @@ img {vertical-align: middle;}*/
 }
 
 .logo1 {
-    position: center;
+
     width: 25%;
     margin: 10px;
   }
@@ -439,7 +439,7 @@ img {vertical-align: middle;}*/
         min-width: 31%;
         height: auto;
         background: white;
-        margin-top: 0 20px 0 0;
+        margin-top: 0px 20px 0px 0px;
         border-radius: 20px;
         position: relative;
         left: 0;
@@ -630,6 +630,90 @@ footer img{
 }
 /*media*/
 
+@media only screen and (min-width: 768px) {
+  .knap2 {
+    margin-left: 40%;
+    font-size: 20px;
+  }
+
+  /*kontakt*/
+.wrapper{
+  max-width: 550px;
+  width: 100%;
+  background: #00A0DF;
+  padding: 10px;
+  margin-left: 12.5%;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: white;
+}
+.wrapper p{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: white;
+}
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+.wrapper .input_field input[type="text"]{
+  border: 1px;
+  width: 100%;
+  padding: 10px;
+}
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #10607F;
+  color: white;
+  font-family: Arial;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#error{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+  /*slutkontakt*/
+}
+
+.knap3 {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 20px;
+  margin: -6px -2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 30px;
+  margin-left: 38%;
+
+}
+
+
+}
+
 @media only screen and (min-width: 1000px) {
 /*mobil*/
   .navfarve {
@@ -641,7 +725,6 @@ footer img{
 }
 
 .logo1 {
-    position: center;
     width: 25%;
     margin: 10px;
   }
@@ -657,7 +740,7 @@ footer img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 6vh;
+
   }
   
   .nav-linksbar {
@@ -665,7 +748,6 @@ footer img{
     width: 80%;
     justify-content: space-around;
     padding-top: 20px;
-    padding-right: 200px;
   }
   
   .nav-linksbar li {
@@ -676,7 +758,7 @@ footer img{
     color: white;
     text-decoration: none;
     letter-spacing: 2px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 900;
     font-family: Arial;
   }
@@ -707,13 +789,12 @@ footer img{
 }
 
   .infoboks img {
-
     width: 40%;
+    padding-top: 150px;
   }
 
   .infoboks h2 {
     text-align: center;
-    float: center;
     margin-bottom: 30px;
     font-size: 30px;
   }
@@ -723,7 +804,7 @@ footer img{
   }
 
   .rightsection {
-    width: 45%;
+    width: 40%;
   padding-left: 15px;
   margin-left: 0.5%;
   float: right;
@@ -732,7 +813,7 @@ footer img{
   }
 
   .knap2 {
-    margin-left: 40%;
+    margin-left: 32.5%;
     font-size: 24px;
   }
 
@@ -745,11 +826,11 @@ footer img{
     .infoboks2 img {
       width: 40%;
       margin-left: 1%;
+      padding-top: 130px;
     }
   
     .infoboks2 h2 {
       text-align: center;
-      float: center;
       font-size: 30px;
     }
   
@@ -772,12 +853,16 @@ footer img{
 }
 
 /*kontakt*/
+.kontaktkasse{
+  align-items: center;
+  margin-left: 9%;
+
+}
+
 .wrapper{
   max-width: 600px;
-  width: 100%;
   background: #00A0DF;
-  padding: 10px;
-  margin-left: 33.5%;
+  padding: 10px;  
   border-radius: 5px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -858,7 +943,7 @@ footer img{
   justify-content: center;
   margin-top: 1%;
   margin-bottom: 30px;
-  margin-left: 45%;
+  margin-left: 41%;
 
 }
  
@@ -881,11 +966,11 @@ footer {
 }
 
 footer img {
-  width: fit-content;
+  width: 100%;
   display: flex;
   height: 50%;
-  margin-left: 20%;
-  margin-right: 20%;
 }
+
+
 
 }
